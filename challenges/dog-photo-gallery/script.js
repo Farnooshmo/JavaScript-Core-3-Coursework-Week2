@@ -1,6 +1,10 @@
 const showButton = document.getElementById("show-image");
 const disappearButton = document.getElementById("disappear-image");
 const unorderedList = document.querySelector("ul");
+unorderedList.style.listStyle ="none";
+
+const container = document.querySelector("body");
+container.style.backgroundColor = "#596e79";
 
 showButton.addEventListener("click", async function getRandomDog() {
   try {
