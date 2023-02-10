@@ -30,3 +30,4 @@ fetch("https://holy-snow-6805.fly.dev/api/greetings")
    greetingLanguage.innerHTML = `Language is: ${greeting.language}`;
     
   });
+ 
